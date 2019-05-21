@@ -3577,7 +3577,7 @@ article .posted-on a:hover {
 	content: "";
 }
 .entry-title:after {
-	position: absolute;
+/* 	position: absolute; */
 	z-index: 1;
 	bottom: -9px;
 	left: 0;
