@@ -148,7 +148,7 @@ display: none;
 <hr>
 
 <div class="tab-content">
-    <h1 class="text-center">Tuesday, July 9 (Day 1)</h1><hr>
+    <h2 class="text-center">Tuesday, July 9 (Day 1)</h2><hr>
     <div class="panel-group">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -166,8 +166,16 @@ display: none;
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 1</h3></div>
+                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 1: Virgil D. Gligor; Carnegie Mellon University</h3></div>
                     <div class="col-md-5 pull-right"><h3 class="panel-title text-right">09:30AM - 10:30AM</h3></div>
+                </div>
+            </div>
+            <div class="panel-body"  style="font-size: 15px">
+                <div class="list-group-item">
+                    <b>Establishing and Maintaining Root of Trust on Commodity Computer Systems</b><br>
+                    Suppose that a trustworthy program must be booted on a commodity system that may contain persistent malware. Establishing root of trust (RoT) assures the system has all and only the content chosen by a trusted verifier or the verifier discovers unaccounted content, with high probability. Hence, RoT establishment assures that verifiable boot takes place in a malware-free state, whp. Obtaining such an assurance is challenging because malware can survive in system states across repeated secure- and trusted-boot operations and act on behalf of a powerful remote adversary; e.g., anti-malware tools do not have malware-unmediated access to device controllers’ processors and memories nor prevent remote malware connections over the internet. I this presentation, I will illustrate both the theoretical and practical challenges of RoT establishment unconditionally; i.e., without secrets, privileged modules (e.g., TPMs, RoMs, HSMs), or adversary computation bounds. I will also illustrate the only unconditional solution to these challenges known in security or cryptography known to date.
+                    <br><br>
+                    Establishing root of trust is important because makes all persistent malware ephemeral and forces the adversary to repeat the malware-insertion attack, perhaps at some added cost. Nevertheless, some malware-controlled software can always be assumed to exist in commodity operating systems and applications. The inherent size and complexity of their components (aka the “giants”) render them vulnerable to successful attacks. In contrast, small and simple software components with rather limited function and high-assurance layered security properties (aka the “wimps”) can, in principle, be resistant to all attacks. Maintaining root of trust assures a user that a commodity computer’s wimps are isolated from, and safely co-exist with, adversary-controlled giants. However, regardless how secure program isolation may be (e.g., based on Intel’s SGX), I/O channel isolation must also be achieved despite the pitfalls of commodity architectures that encourage I/O hardware sharing, not isolation. In this presentation, I will also illustrate the challenges of I/O channel isolation and present and approach that enables the co-existence secure wimps with insecure giants, via an example of an experimental system; i.e., on-demand isolated I/O channels, which were designed and implemented at CMU’s CyLab.
                 </div>
             </div>
         </div>
@@ -395,13 +403,19 @@ display: none;
 </div>
 
 <div class="tab-content">
-    <h1 class="text-center">Wednesday, July 10 (Day 2)</h1><hr>
+    <h2 class="text-center">Wednesday, July 10 (Day 2)</h2><hr>
     <div class="panel-group">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 2</h3></div>
+                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 2: Surya Nepal; CSIRO Data61.</h3></div>
                     <div class="col-md-5 pull-right"><h3 class="panel-title text-right">09:00AM - 10:00AM</h3></div>
+                </div>
+            </div>
+            <div class="panel-body"  style="font-size: 15px">
+                <div class="list-group-item">
+                    <b>Security is the Weakest Link: Prevalent Culture of Victim Blaming in Cyberattacks</b><br>
+                    The effectiveness of cybersecurity measures is often questioned in the wake of hard-hitting security events. Despite much work being done in the field of cybersecurity and general cybersecurity awareness, cyber-attacks and data breaches are on the rise every year. Humans are considered the weakest link in the information security chain. However, most of the blame is put on the end users and their awareness of security and safe use of the cyber systems. It is often forgotten that these systems are also built by humans and they should also bear some responsibilities for introducing bugs and vulnerabilities that can be easily exploited by cyber attackers. This talk aims to highlight the current culture of blaming the victims prevalent in the cybersecurity research community, present the current research initiatives in human centric cybersecurity, and outline the potential future research areas.
                 </div>
             </div>
         </div>
@@ -640,13 +654,21 @@ display: none;
 </div>
 
 <div class="tab-content">
-    <h1 class="text-center">Thursday, July 11 (Day 3)</h1><hr>
+    <h2 class="text-center">Thursday, July 11 (Day 3)</h2><hr>
     <div class="panel-group">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 3</h3></div>
+                    <div class="col-md-5 pull-left"><h3 class="panel-title">Keynote 3: Heiko Mantel; TU Darmstadt</h3></div>
                     <div class="col-md-5 pull-right"><h3 class="panel-title text-right">09:00AM - 10:00AM</h3></div>
+                </div>
+            </div>
+            <div class="panel-body"  style="font-size: 15px">
+                <div class="list-group-item">
+                    <b>From Attacker Models to Reliable Security</b><br>
+                    Attack trees are a popular graphical notation for capturing threats to IT systems. They can be used to describe attacks in terms of attacker goals and attacker actions. By focusing on the viewpoint of a single attacker and on a particular attacker goal in the creation of an attack tree, one reduces the conceptual complexity of threat modeling substantially. Aspects not covered by attack trees, like the behavior of the system under attack, can then be described using other models to enable a security analysis based on a combination of the models.
+                    <br><br>
+                    Despite the high popularity of attack trees in security engineering for many years, some pitfalls in their use were identified only recently. In this talk, I will point out such difficulties, outline how attack trees can be used in combination with system models, and clarify the consequences of different combinations for security analysis results. After a security analysis of an abstract model, the insights gained need to be mapped to reality. I will introduce an automata-based model of run-time monitors and will show how defenses in this model can be realized at runtime with the CliSeAu system.
                 </div>
             </div>
         </div>
@@ -724,7 +746,7 @@ display: none;
 </div>
 
 <div class="tab-content">
-    <h1 class="text-center">Friday, July 12 (Day 4)</h1><hr>
+    <h2 class="text-center">Friday, July 12 (Day 4)</h2><hr>
 
 <div class="panel-group">
         <div class="panel panel-default">
