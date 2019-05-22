@@ -17,6 +17,48 @@
 <script type='text/javascript' src='https://asiaccs2019.github.io/wp-content/themes/zerif-lite/js/jquery.knob.js?ver=1.8.5.41'></script>
 <script type='text/javascript' src='https://asiaccs2019.github.io/wp-content/themes/zerif-lite/js/zerif.js?ver=1.8.5.41'></script>
 
+<style >
+.accepted-papers {
+padding-top: 0!important;
+padding-bottom: 0!important;
+}
+
+
+.accepted-papers ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    list-style-type: none !important;
+}
+
+.accepted-papers ul {
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+.accepted-papers ul li {
+    padding-bottom: 25px !important;
+    list-style-type: none !important;
+    padding-top: 0!important;
+}
+
+.accepted-papers .paper-title {
+    font-weight: 700 !important;
+    font-size: .95em !important;
+}
+
+.accepted-papers .paper-author {
+    font-size: .85em !important;
+}
+</style>
+
+<style >
+h1.entry-title {
+    margin-top: 0;
+    margin-bottom: 30px !important;
+    font-size: 1.6em !important;
+}
+</style>
+
 </head>
 
 
@@ -62,13 +104,13 @@
 			<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
 			<ul id="menu-asiaccs2019" class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li id="menu-item-547" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-547"><a href="https://asiaccs2019.github.io">HOME</a></li>
 <li id="menu-item-815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-815"><a href="/keynotes.html">Keynotes</a></li>
-<li id="menu-item-600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-600"><a href=""><span style="color:blue">Program</span></a>
+<li id="menu-item-600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-600"><a><span style="color:blue">Program</span></a>
 <ul class="sub-menu">
 	<li id="menu-item-628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-628"><a href="/program-glance.html">Program at a glance</a></li>
 	<li id="menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="/program.html">Program</a></li>
 </ul>
 </li>
-<li id="menu-item-549" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-549"><a href="workshops.html">Workshops</a>
+<li id="menu-item-549" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-549"><a>Workshops</a>
 <ul class="sub-menu">
 	<li id="menu-item-554" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-554"><a href="http://jianying.space/cpss/CPSS2019/">Cyber-Physical System Security Workshop (CPSS)</a></li>
 	<li id="menu-item-555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a href="https://www2.nict.go.jp/security/apkc2019/">ASIA Public-Key Cryptography Workshop (APKC)</a></li>
@@ -77,7 +119,7 @@
 	<li id="menu-item-558" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-558"><a href="https://conference.cs.cityu.edu.hk/asiaccsscc/">Workshop on Security in Cloud Computing (SCC)</a></li>
 </ul>
 </li>
-<li id="menu-item-550" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-550"><a href="">Date &#038; CFP</a>
+<li id="menu-item-550" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-550"><a>Date &#038; CFP</a>
 <ul class="sub-menu">
 	<li id="menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-546"><a href="call/important-dates.html">Important Dates</a></li>
 	<li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="call/call-for-papers.html">Call for Papers</a></li>
@@ -87,20 +129,20 @@
 	<li id="menu-item-743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-743"><a href="call/call-for-participation.html">Call for Participation</a></li>
 </ul>
 </li>
-<li id="menu-item-551" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-551"><a href="">Committees</a>
+<li id="menu-item-551" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-551"><a>Committees</a>
 <ul class="sub-menu">
 	<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="committee/steering-committee.html">Steering Committee</a></li>
 	<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="committee/organization.html">Organization</a></li>
 	<li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-541"><a href="committee/program-committee.html">Program Committee</a></li>
 </ul>
 </li>
-<li id="menu-item-552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-552"><a><span style="color:blue">Accepted</span></a>
+<li id="menu-item-552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-552"><a>Accepted</span></a>
 <ul class="sub-menu">
 	<li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a href="accepted-papers.html">Accepted Paper</a></li>
 	<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="accepted-posters.html">Accepted Posters</a></li>
 </ul>
 </li>
-<li id="menu-item-553" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553"><a href=""><span style="color:blue">Participate</span></a>
+<li id="menu-item-553" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553"><a>Participate</span></a>
 <ul class="sub-menu">
 	<li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543"><a href="participate/venues.html">Venue</a></li>
 	<li id="menu-item-571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571"><a href="participate/accommodation.html">Accommodation</a></li>
@@ -123,9 +165,9 @@
 <div id="page" class="hfeed site">
 	<div id="content" class="site-content">
 
-<main id="main" class="site-main" role="main">				
+<main id="main" class="site-main" role="main" style="width: 100%;">				
 	<article id="post-8" class="post-8 page type-page status-publish hentry">
-	<header class="entry-header">
+	<header class="entry-header" style="overflow: visible">
 		<h1 class="entry-title">Accepted Papers</h1>	
 	</header><!-- .entry-header -->
 
@@ -133,310 +175,266 @@
 <!-- ============================================================  -->
 
 	<div class="entry-content">
-
-		<ul>
-
-<!-- full paper -->
-
-<ul>
+		<div id="et-boc" class="et-boc">
+			<div id="et_builder_outer_content" class="et_builder_outer_content">
+			<div class="et_builder_inner_content et_pb_gutters3"><div class="et_pb_section et_pb_section_0 accepted-papers et_section_regular et_section_transparent">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0    et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0 et_pb_bg_layout_light  et_pb_text_align_left">
+				
+				
+				<div class="et_pb_text_inner">
+					<ul>
 <li>
-Exploiting Sound Masking for Audio Privacy in Smartphones,Yu-Chih Tung (University of Michigan);  Kang G. Shin (University of Michigan)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Exploiting Sound Masking for Audio Privacy in Smartphones</div>
+<div class="paper-author">Yu-Chih Tung (University of Michigan); Kang G. Shin (University of Michigan)</div>
+</li>
 <li>
-EPISODE: Efficient Privacy-PreservIng Similar Sequence Queries on Outsourced Genomic DatabasEs,Thomas Schneider (TU Darmstadt);  Oleksandr Tkachenko (TU Darmstadt)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">EPISODE: Efficient Privacy-PreservIng Similar Sequence Queries on Outsourced Genomic Databases</div>
+<div class="paper-author">Thomas Schneider (TU Darmstadt); Oleksandr Tkachenko (TU Darmstadt)</div>
+</li>
 <li>
-MoSSOT: An Automated Blackbox Tester for Single Sign-On Vulnerabilities in Mobile Applications,Shangcheng Shi (The Chinese University of Hong Kong);  Xianbo Wang (The Chinese University of Hong Kong);  Wing Cheong Lau (The Chinese University of Hong Kong)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">MoSSOT: An Automated Blackbox Tester for Single Sign-On Vulnerabilities in Mobile Applications</div>
+<div class="paper-author">Shangcheng Shi (The Chinese University of Hong Kong); Xianbo Wang (The Chinese University of Hong Kong); Wing Cheong Lau (The Chinese University of Hong Kong)</div>
+</li>
 <li>
-Revisiting Assumptions for Website Fingerprinting Attacks,Weiqi Cui (Oklahoma State University);  Tao Chen (Oklahoma State University);  Christian Fields (Oklahoma State University); Julianna Chen (Oklahoma State University);  Anthony Sierra (Oklahoma State University);  Eric Chan-Tin (Loyola University Chicago)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Revisiting Assumptions for Website Fingerprinting Attacks</div>
+<div class="paper-author">Weiqi Cui (Oklahoma State University); Tao Chen (Oklahoma State University); Christian Fields (Oklahoma State University); Julianna Chen (Oklahoma State University); Anthony Sierra (Oklahoma State University); Eric Chan-Tin (Loyola University Chicago)</div>
+</li>
 <li>
-GraphSE^2: An Encrypted Graph Database for Privacy-Preserving Social Search,Shangqi Lai (Monash University); Xingliang Yuan (Monash University); Shi-Feng Sun (Monash University); Joseph K. Liu (Monash University); Yuhong Liu (Santa Clara University); Dongxi Liu (Data61, CSIRO)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">GraphSE^2: An Encrypted Graph Database for Privacy-Preserving Social Search</div>
+<div class="paper-author">Shangqi Lai (Monash University); Xingliang Yuan (Monash University); Shi-Feng Sun (Monash University); Joseph K. Liu (Monash University); Yuhong Liu (Santa Clara University); Dongxi Liu (Data61, CSIRO)</div>
+</li>
 <li>
-Undermining User Privacy on Mobile Devices Using AI,Berk Gulmezoglu (WPI); Andreas Zankl (Fraunhofer AISEC); Caner Tol (METU); Saad Islam (WPI); Thomas Eisenbarth (University of Lübeck); Berk Sunar (WPI)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Undermining User Privacy on Mobile Devices Using AI</div>
+<div class="paper-author">Berk Gulmezoglu (WPI); Andreas Zankl (Fraunhofer AISEC); Caner Tol (METU); Saad Islam (WPI); Thomas Eisenbarth (University of Lübeck); Berk Sunar (WPI)</div>
+</li>
 <li>
-Process-Aware Cyberattacks for Thermal Desalination Plants,Prashant Hari Narayan Rajput (New York University Abu Dhabi); Pankaj Rajput (New York University Abu Dhabi); Marios Sazos (New York University Abu Dhabi); Michail Maniatakos (New York University Abu Dhabi)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Process-Aware Cyberattacks for Thermal Desalination Plants</div>
+<div class="paper-author">Prashant Hari Narayan Rajput (New York University Abu Dhabi); Pankaj Rajput (New York University Abu Dhabi); Marios Sazos (New York University Abu Dhabi); Michail Maniatakos (New York University Abu Dhabi)</div>
+</li>
 <li>
-Can I Opt Out Yet? GDPR and the Global Illusion of Cookie Control,Iskander Sanchez-Rola (DeustoTech, University of Deusto, Symantec Research Labs); Matteo Dell'Amico (Symantec Research Labs); Platon Kotzias (IMDEA Software Institute, Universidad Politecnica de Madrid); Davide Balzarotti (Eurecom); Leyla Bilge (Symantec Research Labs); Pierre-Antoine Vervier (Symantec Research Labs); Igor Santos (DeustoTech, University of Deusto)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Can I Opt Out Yet? GDPR and the Global Illusion of Cookie Control</div>
+<div class="paper-author">Iskander Sanchez-Rola (DeustoTech, University of Deusto, Symantec Research Labs); Matteo Dell&#8217;Amico (Symantec Research Labs); Platon Kotzias (IMDEA Software Institute, Universidad Politecnica de Madrid); Davide Balzarotti (Eurecom); Leyla Bilge (Symantec Research Labs); Pierre-Antoine Vervier (Symantec Research Labs); Igor Santos (DeustoTech, University of Deusto)</div>
+</li>
 <li>
-Waves of Malice: A Longitudinal Measurement of the Malicious File Delivery Ecosystem on the Web,Colin Ife (University College London); Yun Shen (Symantec Research Labs); Steven Murdoch (University College London); Gianluca Stringhini (Boston University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Waves of Malice: A Longitudinal Measurement of the Malicious File Delivery Ecosystem on the Web</div>
+<div class="paper-author">Colin Ife (University College London); Yun Shen (Symantec Research Labs); Steven Murdoch (University College London); Gianluca Stringhini (Boston University)</div>
+</li>
 <li>
-Robust Watermarking of Neural Network with Exponential Weighting,Ryota Namba (University of Tsukuba); Jun Sakuma (University of Tsukuba, RIKEN AIP)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Robust Watermarking of Neural Network with Exponential Weighting</div>
+<div class="paper-author">Ryota Namba (University of Tsukuba); Jun Sakuma (University of Tsukuba, RIKEN AIP)</div>
+</li>
 <li>
-MPC Joins the Dark Side,John Cartlidge (University of Bristol); Nigel P. Smart (KU Leuven and University of Bristol); Younes Talibi Alaoui (KU Leuven)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">MPC Joins the Dark Side</div>
+<div class="paper-author">John Cartlidge (University of Bristol); Nigel P. Smart (KU Leuven and University of Bristol); Younes Talibi Alaoui (KU Leuven)</div>
+</li>
 <li>
-SoK: On DFA Vulnerabilities of Substitution-Permutation Networks,Mustafa Khairallah (NTU, Singapore); Xiaolu Hou (Acronis, Singapore); Zakaria Najm (NTU, Singapore); Jakub Breier (Underwriters Laboratories, Singapore); Shivam Bhasin (NTU, Singapore); Thomas Peyrin (NTU, Singapore)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">SoK: On DFA Vulnerabilities of Substitution-Permutation Networks</div>
+<div class="paper-author">Mustafa Khairallah (NTU, Singapore); Xiaolu Hou (Acronis, Singapore); Zakaria Najm (NTU, Singapore); Jakub Breier (Underwriters Laboratories, Singapore); Shivam Bhasin (NTU, Singapore); Thomas Peyrin (NTU, Singapore)</div>
+</li>
 <li>
-Pinpoint Rowhammer: Suppressing Unwanted Bit Flips on Rowhammer Attacks,Sangwoo Ji (POSTECH); Youngjoo Ko (POSTECH); Saeyoung Oh (POSTECH); Jong Kim (POSTECH)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Pinpoint Rowhammer: Suppressing Unwanted Bit Flips on Rowhammer Attacks</div>
+<div class="paper-author">Sangwoo Ji (POSTECH); Youngjoo Ko (POSTECH); Saeyoung Oh (POSTECH); Jong Kim (POSTECH)</div>
+</li>
 <li>
-On the Difficulty of Hiding the Balance of Lightning Network Channels,Jordi Herrera-Joancomarti (Universitat Autònoma de Barcelona); Guilllermo Navarro-Arribas (Universitat Autònoma de Barcelona); Alejandro Ranchal-Pedrosa (Telecom SudParis); Joaquin Garcia-Alfaro (Telecom SudParis, CNRS SAMOVAR); Cristina Perez-Sola (Universitat Rovira i Virgili)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">On the Difficulty of Hiding the Balance of Lightning Network Channels</div>
+<div class="paper-author">Jordi Herrera-Joancomarti (Universitat Autònoma de Barcelona); Guillermo Navarro-Arribas (Universitat Autònoma de Barcelona); Alejandro Ranchal-Pedrosa (Telecom SudParis); Joaquin Garcia-Alfaro (Telecom SudParis, CNRS SAMOVAR); Cristina Perez-Sola (Universitat Rovira i Virgili)</div>
+</li>
 <li>
-Study of Misbinding Attacks on Secure Device Pairing,Mohit Sethi (NomadicLab, Ericsson Research, Finland); Aleksi Peltonen (Aalto University, Finland); Tuomas Aura (Aalto University, Finland)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Study of Misbinding Attacks on Secure Device Pairing</div>
+<div class="paper-author">Mohit Sethi (NomadicLab, Ericsson Research, Finland); Aleksi Peltonen (Aalto University, Finland); Tuomas Aura (Aalto University, Finland)</div>
+</li>
 <li>
-Multi-Writer Searchable Encryption: An LWE-based Realization and Implementation,Lei Xu (Nanjing University of Science and Technology); Xingliang Yuan (Monash University); Ron Steinfeld (Monash University); Cong Wang (City University of Hong Kong); Chungen Xu (Nanjing University of Science and Technology)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Multi-Writer Searchable Encryption: An LWE-based Realization and Implementation</div>
+<div class="paper-author">Lei Xu (Nanjing University of Science and Technology); Xingliang Yuan (Monash University); Ron Steinfeld (Monash University); Cong Wang (City University of Hong Kong); Chungen Xu (Nanjing University of Science and Technology)</div>
+</li>
 <li>
-Control-Flow Carrying Code,Yan Lin (School of Information Systems, Singapore Management University); Debin Gao (School of Information Systems, Singapore Management University); Xiaoyang Cheng (College of Cyber Science , Nankai University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Control-Flow Carrying Code, Yan Lin (School of Information Systems</div>
+<div class="paper-author">Singapore Management University); Debin Gao (School of Information Systems, Singapore Management University); Xiaoyang Cheng (College of Cyber Science , Nankai University)</div>
+</li>
 <li>
-A New Blind ECDSA Scheme for Bitcoin Transaction Anonymity,Xun Yi (RMIT University, Australia); Kwok-Yan Lam (Nanyang Technological University, Singapore)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">A New Blind ECDSA Scheme for Bitcoin Transaction Anonymity</div>
+<div class="paper-author">Xun Yi (RMIT University, Australia); Kwok-Yan Lam (Nanyang Technological University, Singapore)</div>
+</li>
 <li>
-MagAttack: Guessing Application Launching and Operation via Smartphone,Yushi Cheng (Zhejiang University); Xiaoyu Ji (Zhejiang University); Wenyuan Xu (Zhejiang University); Hao Pan (Shanghai Jiao Tong University); Zhuangdi Zhu (Michigan State University); Chuang-Wen You (National Taiwan University); Yi-Chao Chen (University of Texas at Austin); Lili Qiu (University of Texas at Austin)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">MagAttack: Guessing Application Launching and Operation via Smartphone</div>
+<div class="paper-author">Yushi Cheng (Zhejiang University); Xiaoyu Ji (Zhejiang University); Wenyuan Xu (Zhejiang University); Hao Pan (Shanghai Jiao Tong University); Zhuangdi Zhu (Michigan State University); Chuang-Wen You (National Taiwan University); Yi-Chao Chen (University of Texas at Austin); Lili Qiu (University of Texas at Austin)</div>
+</li>
 <li>
-What Happens After You Leak Your Password: Understanding Credential Sharing on Phishing Sites,Peng Peng (Virginia Tech); Chao Xu (Virginia Tech); Luke Quinn (Virginia Tech); Hang Hu (Virginia Tech); Bimal Viswanath (Virginia Tech); Gang Wang (Virginia Tech)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">What Happens After You Leak Your Password: Understanding Credential Sharing on Phishing Sites</div>
+<div class="paper-author">Peng Peng (Virginia Tech); Chao Xu (Virginia Tech); Luke Quinn (Virginia Tech); Hang Hu (Virginia Tech); Bimal Viswanath (Virginia Tech); Gang Wang (Virginia Tech)</div>
+</li>
 <li>
-SoK: Using Dynamic Binary Instrumentation for Security (And How You May Get Caught Red Handed),Daniele Cono D'Elia (Sapienza University of Rome); Emilio Coppa (Sapienza University of Rome); Simone Nicchi (Sapienza University of Rome); Federico Palmaro (Prisma); Lorenzo Cavallaro (King's College London)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">SoK: Using Dynamic Binary Instrumentation for Security (And How You May Get Caught Red</div>
+<div class="paper-author">Handed),Daniele Cono D&#8217;Elia (Sapienza University of Rome); Emilio Coppa (Sapienza University of Rome); Simone Nicchi (Sapienza University of Rome); Federico Palmaro (Prisma); Lorenzo Cavallaro (King&#8217;s College London)</div>
+</li>
 <li>
-The SEVerESt Of Them All ( Inference Attacks Against Secure Virtual Enclaves,Jan Werner (University of North Carolina at Chapel Hill); Joshua Mason (University of Illinois Urbana-Champaign); Manos Antonakakis (Georgia Institute of Technology); Michalis Polychronakis (Stony Brook University); Fabian Monrose (University of North Carolina at Chapel Hill)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">The SEVerESt Of Them All ( Inference Attacks Against Secure Virtual Enclaves</div>
+<div class="paper-author">Jan Werner (University of North Carolina at Chapel Hill); Joshua Mason (University of Illinois Urbana-Champaign); Manos Antonakakis (Georgia Institute of Technology); Michalis Polychronakis (Stony Brook University); Fabian Monrose (University of North Carolina at Chapel Hill)</div>
+</li>
 <li>
-Exploiting Determinism in lattice-based signatures - Practical Fault Attacks on pqm4 implementations of NIST candidates,Prasanna Ravi (Research Assistant); Mahabir Prasad Jhanwar (Assistant Professor); James Howe (Research Associate); Anupam Chattopadhyay (Assistant Professor); Shivam Bhasin (Research Scientist)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Exploiting Determinism in lattice-based signatures &#8211; Practical Fault Attacks on pqm4 implementations of NIST candidates</div>
+<div class="paper-author">Prasanna Ravi (Research Assistant); Mahabir Prasad Jhanwar (Assistant Professor); James Howe (Research Associate); Anupam Chattopadhyay (Assistant Professor); Shivam Bhasin (Research Scientist)</div>
+</li>
 <li>
-ObliDC: An SGX-based Oblivious Distributed Computing Framework with Formal Proof,Pengfei WU (School of Software and Microelectronics, Peking University); Qingni SHEN (School of Software and Microelectronics, Peking University); Robert. H. DENG (School of Information System, Singapore Management University); Ximeng LIU (College of Mathematics and Computer Science, Fuzhou University); Yinghui ZHANG (National Engineering Laboratory for Wireless Security, Xi'an University of Posts and Telecommunications); Zhonghai WU (School of Software and Microelectronics, Peking University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">ObliDC: An SGX-based Oblivious Distributed Computing Framework with Formal Proof</div>
+<div class="paper-author">Pengfei WU (School of Software and Microelectronics, Peking University); Qingni SHEN (School of Software and Microelectronics, Peking University); Robert. H. DENG (School of Information System, Singapore Management University); Ximeng LIU (College of Mathematics and Computer Science, Fuzhou University); Yinghui ZHANG (National Engineering Laboratory for Wireless Security, Xi&#8217;an University of Posts and Telecommunications); Zhonghai WU (School of Software and Microelectronics, Peking University)</div>
+</li>
 <li>
-On The Unforkability of Monero,Dimaz Ankaa Wijaya (Monash University); Joseph Liu (Monash University); Ron Steinfeld (Monash University); Dongxi Liu (Data61, CSIRO, Australia); Jiangshan Yu (Monash University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">On The Unforkability of Monero</div>
+<div class="paper-author">Dimaz Ankaa Wijaya (Monash University); Joseph Liu (Monash University); Ron Steinfeld (Monash University); Dongxi Liu (Data61, CSIRO, Australia); Jiangshan Yu (Monash University)</div>
+</li>
 <li>
-Proper Usage of the Group Signature Scheme in ISO/IEC 20008-2,Ai Ishida (National Institute of Advanced Industrial Science and Technology); Yusuke Sakai (National Institute of Advanced Industrial Science and Technology); Keita Emura (National Institute of Information and Communications Technology); Goichiro Hanaoka (National Institute of Advanced Industrial Science and Technology); Keisuke Tanaka (Tokyo Institute of Technology)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Proper Usage of the Group Signature Scheme in ISO/IEC 20008-2</div>
+<div class="paper-author">Ai Ishida (National Institute of Advanced Industrial Science and Technology); Yusuke Sakai (National Institute of Advanced Industrial Science and Technology); Keita Emura (National Institute of Information and Communications Technology); Goichiro Hanaoka (National Institute of Advanced Industrial Science and Technology); Keisuke Tanaka (Tokyo Institute of Technology)</div>
+</li>
 <li>
-Identity-Based Broadcast Encryption with Outsourced Partial Decryption for Hybrid Security Models in Edge Computing,Jongkil kim (University of Wollongong, Australia); Seyit Camtepe (CSIRO, Australia); Willy Susilo (University of Wollongong, Australia); Surya Nepal (CSIRO, Australia); Joonsang Baek (University of Wollongong, Australia)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Identity-Based Broadcast Encryption with Outsourced Partial Decryption for Hybrid Security Models in Edge Computing</div>
+<div class="paper-author">Jongkil kim (University of Wollongong, Australia); Seyit Camtepe (CSIRO, Australia); Willy Susilo (University of Wollongong, Australia); Surya Nepal (CSIRO, Australia); Joonsang Baek (University of Wollongong, Australia)</div>
+</li>
 <li>
-Practical Aggregate Signature from General Elliptic Curves, and Applications to Blockchain,Yunlei Zhao (Software School, Fudan University, Shanghai, China)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Practical Aggregate Signature from General Elliptic Curves, and Applications to Blockchain</div>
+<div class="paper-author">Yunlei Zhao (Software School, Fudan University, Shanghai, China)</div>
+</li>
 <li>
-RIP-RH: Preventing Rowhammer-based Inter-Process Attacks,Carsten Bock (TU Darmstadt); Ferdinand Brasser (TU Darmstadt); David Gens (TU Darmstadt); Ahmad-Reza Sadeghi (TU Darmstadt)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">RIP-RH: Preventing Rowhammer-based Inter-Process Attacks</div>
+<div class="paper-author">Carsten Bock (TU Darmstadt); Ferdinand Brasser (TU Darmstadt); David Gens (TU Darmstadt); Ahmad-Reza Sadeghi (TU Darmstadt)</div>
+</li>
 <li>
-Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary,Yaohui Chen (Northeastern University); Dongliang Mu (Penn State University); Zhichuang Sun (Northeastern University); Jun Xu (Stevens Institute of Technology); Wenguo Shen (Samsung Research American); Xinyu Xing (Penn State University); Long Lu (Northeastern University); Bing Mao (Nanjing University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary</div>
+<div class="paper-author">Yaohui Chen (Northeastern University); Dongliang Mu (Penn State University); Zhichuang Sun (Northeastern University); Jun Xu (Stevens Institute of Technology); Wenguo Shen (Samsung Research American); Xinyu Xing (Penn State University); Long Lu (Northeastern University); Bing Mao (Nanjing University)</div>
+</li>
 <li>
-Delegable Order-Revealing Encryption,Yuan Li (Fudan University); Hongbing Wang (Singapore Management University); Yunlei Zhao (Fudan University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Delegable Order-Revealing Encryption</div>
+<div class="paper-author">Yuan Li (Fudan University); Hongbing Wang (Singapore Management University); Yunlei Zhao (Fudan University)</div>
+</li>
 <li>
-Purchased Fame: Exploring the Ecosystem of Private Blog Networks,Tom Van Goethem (imec-DistriNet, KU Leuven); Najmeh Miramirkhani (Stony Brook University); Wouter Joosen (imec-DistriNet, KU Leuven); Nick Nikiforakis (Stony Brook University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Purchased Fame: Exploring the Ecosystem of Private Blog Networks</div>
+<div class="paper-author">Tom Van Goethem (imec-DistriNet, KU Leuven); Najmeh Miramirkhani (Stony Brook University); Wouter Joosen (imec-DistriNet, KU Leuven); Nick Nikiforakis (Stony Brook University)</div>
+</li>
 <li>
-Towards Understanding Android System Vulnerabilities: Techniques and Insights,Daoyuan Wu (Singapore Management University); Debin Gao (Singapore Management University); Eric K. T. Cheng (The Hong Kong Polytechnic University); Yichen Cao (SOBUG, ShenZhen, China); Jintao Jiang (SOBUG, ShenZhen, China); Robert H. Deng (Singapore Management University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Towards Understanding Android System Vulnerabilities: Techniques and Insights</div>
+<div class="paper-author">Daoyuan Wu (Singapore Management University); Debin Gao (Singapore Management University); Eric K. T. Cheng (The Hong Kong Polytechnic University); Yichen Cao (SOBUG, ShenZhen, China); Jintao Jiang (SOBUG, ShenZhen, China); Robert H. Deng (Singapore Management University)</div>
+</li>
 <li>
-Practical Side-Channel Attacks against WPA-TKIP,Domien Schepers (Northeastern University); Aanjhan Ranganathan (Northeastern University); Mathy Vanhoef (New York University Abu Dhabi)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">Practical Side-Channel Attacks against WPA-TKIP</div>
+<div class="paper-author">Domien Schepers (Northeastern University); Aanjhan Ranganathan (Northeastern University); Mathy Vanhoef (New York University Abu Dhabi)</div>
+</li>
 <li>
-DeClassifier: Class-Inheritance Inference Engine for Optimized C++ Binaries,Rukayat Ayomide Erinfolami (Binghamton University); Aravind Prakash (Binghamton University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">DeClassifier: Class-Inheritance Inference Engine for Optimized C++ Binaries</div>
+<div class="paper-author">Rukayat Ayomide Erinfolami (Binghamton University); Aravind Prakash (Binghamton University)</div>
+</li>
 <li>
-A Decade of Mal-Activity Reporting: A Retrospective Analysis of Internet Malicious Activity Blacklists,Benjamin Zi Hao Zhao (Data61, UNSW); Muhammad Ikram (Macquarie University, University of Michigan); Hassan Jameel Asghar (Data61, Macquarie University); Mohamed Ali Kaafar (Data61, Macquarie University); Abdelberi Chaabane (Nokia Bell Labs); Kanchana Thilakarathna (The University of Sydney)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">A Decade of Mal-Activity Reporting: A Retrospective Analysis of Internet Malicious Activity Blacklists</div>
+<div class="paper-author">Benjamin Zi Hao Zhao (Data61, UNSW); Muhammad Ikram (Macquarie University, University of Michigan); Hassan Jameel Asghar (Data61, Macquarie University); Mohamed Ali Kaafar (Data61, Macquarie University); Abdelberi Chaabane (Nokia Bell Labs); Kanchana Thilakarathna (The University of Sydney)</div>
+</li>
 <li>
-A Hybrid Approach to Secure Function Evaluation using SGX,Joseph I. Choi (University of Florida); Dave (Jing) Tian (University of Florida); Grant Hernandez (University of Florida); Christopher Patton (University of Florida); Benjamin Mood (Point Loma Nazarene University); Thomas Shrimpton (University of Florida); Kevin R. B. Butler (University of Florida); Patrick Traynor (University of Florida)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">A Hybrid Approach to Secure Function Evaluation using SGX</div>
+<div class="paper-author">Joseph I. Choi (University of Florida); Dave (Jing) Tian (University of Florida); Grant Hernandez (University of Florida); Christopher Patton (University of Florida); Benjamin Mood (Point Loma Nazarene University); Thomas Shrimpton (University of Florida); Kevin R. B. Butler (University of Florida); Patrick Traynor (University of Florida)</div>
+</li>
 <li>
-TweetScore: Scoring Tweets via Social Attribute Relationships for Twitter Spammer Detection,Yihe Zhang (Unaffiliated); Hao Zhang (Unaffiliated); Xu Yuan (Unaffiliated); Nian-Feng Tzeng (Unaffiliated)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">TweetScore: Scoring Tweets via Social Attribute Relationships for Twitter Spammer Detection</div>
+<div class="paper-author">Yihe Zhang (Unaffiliated); Hao Zhang (Unaffiliated); Xu Yuan (Unaffiliated); Nian-Feng Tzeng (Unaffiliated)</div>
+</li>
 <li>
-K2SN-MSS: An Efficient Post-Quantum Signature,Sabyasachi Karati (University of Calgary); Reihaneh Safavi-Naini (University of Calgary)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">K2SN-MSS: An Efficient Post-Quantum Signature</div>
+<div class="paper-author">Sabyasachi Karati (University of Calgary); Reihaneh Safavi-Naini (University of Calgary)</div>
+</li>
 <li>
-"I Don't Think I Can Share My Health Information ...": Understanding Users' Risk Perceptions about Personal Health Records Shared on Social Networking Services,Yuri Son (Samsung Electronics Co., Ltd.); Geumhwan Cho (Sungkyunkwan University); Hyoungshick Kim (Sungkyunkwan University); Simon Woo (SUNY Korea)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">&#8220;I Don&#8217;t Think I Can Share My Health Information &#8230;&#8221;: Understanding Users&#8217; Risk Perceptions about Personal Health Records Shared on Social Networking Services</div>
+<div class="paper-author">Yuri Son (Samsung Electronics Co., Ltd.); Geumhwan Cho (Sungkyunkwan University); Hyoungshick Kim (Sungkyunkwan University); Simon Woo (SUNY Korea)</div>
+</li>
 <li>
-eHIFS: An Efficient History Independent File System,Biao Gao (Institute of Information Engineering); Bo Chen (Department of Computer Science, Michigan Technological University); Shijie Jia (Institute of Information Engineering, CAS); Luning Xia (Institute of Information Engineering)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">eHIFS: An Efficient History Independent File System</div>
+<div class="paper-author">Biao Gao (Institute of Information Engineering); Bo Chen (Department of Computer Science, Michigan Technological University); Shijie Jia (Institute of Information Engineering, CAS); Luning Xia (Institute of Information Engineering)</div>
+</li>
 <li>
-An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning,Sunnyeo Park (KAIST); Dohyeok Kim (KAIST); Sooel Son (KAIST)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">An Empirical Study of Prioritizing JavaScript Engine Crashes via Machine Learning</div>
+<div class="paper-author">Sunnyeo Park (KAIST); Dohyeok Kim (KAIST); Sooel Son (KAIST)</div>
+</li>
 <li>
-ScriptProtect: Mitigating Unsafe Third-Party JavaScript Practices,Marius Musch (TU Braunschweig); Marius Steffens (CISPA Helmholtz Center for Information Security); Ben Stock (CISPA Helmholtz Center for Information Security); Martin Johns (TU Braunschweig)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">ScriptProtect: Mitigating Unsafe Third-Party JavaScript Practices</div>
+<div class="paper-author">Marius Musch (TU Braunschweig); Marius Steffens (CISPA Helmholtz Center for Information Security); Ben Stock (CISPA Helmholtz Center for Information Security); Martin Johns (TU Braunschweig)</div>
+</li>
 <li>
-Alexa lied to me: Skill-based Man-in-the-Middle Attacks on Virtual Assistants,Richard Mitev (Technische Universität Darmstadt); Markus Miettinen (Technische Universität Darmstadt); Ahmad-Reza Sadeghi (Technische Universität Darmstadt)
-</ul>
-<p>&nbsp;</p>
-
-
-<!-- short paper -->
-
-
-
-<ul>
+<div class="paper-title">Alexa lied to me: Skill-based Man-in-the-Middle Attacks on Virtual Assistants</div>
+<div class="paper-author">Richard Mitev (Technische Universität Darmstadt); Markus Miettinen (Technische Universität Darmstadt); Ahmad-Reza Sadeghi (Technische Universität Darmstadt)</div>
+</li>
 <li>
-	(Short Paper) A Feature-Oriented Corpus for understanding, Evaluating and Improving Fuzz Testing, Xiaogang Zhu (Swinburne University of Technology); Xiaotao Feng (Swinburne University of Technology); Tengyun Jiao (Swinburne University of Technology); Sheng Wen (Swinburne University of Technology); Jingling Xue (The University of New South Wales); Seyit Camtepe (CSIRO Data61); Yang Xiang (Swinburne University of Technology)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) A Feature-Oriented Corpus for understanding, Evaluating and Improving Fuzz Testing</div>
+<div class="paper-author">Xiaogang Zhu (Swinburne University of Technology); Xiaotao Feng (Swinburne University of Technology); Tengyun Jiao (Swinburne University of Technology); Sheng Wen (Swinburne University of Technology); Jingling Xue (The University of New South Wales); Seyit Camtepe (CSIRO Data61); Yang Xiang (Swinburne University of Technology)</div>
+</li>
 <li>
-	(Short Paper) Thermanator: Thermal Residue-Based Post Factum Attacks On Keyboard Data Entry,Tyler Kaczmarek (University of California, Irvine); Ercan Ozturk (University of California, Irvine); Gene Tsudik (University of California, Irvine)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Thermanator: Thermal Residue-Based Post Factum Attacks On Keyboard Data Entry</div>
+<div class="paper-author">Tyler Kaczmarek (University of California, Irvine); Ercan Ozturk (University of California, Irvine); Gene Tsudik (University of California, Irvine)</div>
+</li>
 <li>
-	(Short Paper) HADES-IoT: A Practical Host-Based Anomaly Detection System for IoT Devices,Dominik Breitenbacher (Singapore University of Technology and Design); Ivan Homoliak (Singapore University of Technology and Design); Yan Lin Aung (Singapore University of Technology and Design); Nils Ole Tippenhauer (CISPA Helmholtz Center for Information Security); Yuval Elovici (Singapore University of Technology and Design)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) HADES-IoT: A Practical Host-Based Anomaly Detection System for IoT Devices</div>
+<div class="paper-author">Dominik Breitenbacher (Singapore University of Technology and Design); Ivan Homoliak (Singapore University of Technology and Design); Yan Lin Aung (Singapore University of Technology and Design); Nils Ole Tippenhauer (CISPA Helmholtz Center for Information Security); Yuval Elovici (Singapore University of Technology and Design)</div>
+</li>
 <li>
-	(Short Paper) Running Language Interpreters Inside SGX: A Lightweight, Legacy-Compatible Script Code Hardening Approach,Huibo Wang (University of Texas at Dallas); Erick Bauman (University of Texas at Dallas); Vishal Karande (University of Texas at Dallas); Yueqiang Cheng (Baidu USA Xlab); Zhiqiang Lin (The Ohio State University); Yinqian Zhang (The Ohio State University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Running Language Interpreters Inside SGX: A Lightweight, Legacy-Compatible Script Code Hardening Approach</div>
+<div class="paper-author">Huibo Wang (University of Texas at Dallas); Erick Bauman (University of Texas at Dallas); Vishal Karande (University of Texas at Dallas); Yueqiang Cheng (Baidu USA Xlab); Zhiqiang Lin (The Ohio State University); Yinqian Zhang (The Ohio State University)</div>
+</li>
 <li>
-	(Short Paper) A Pilot Study on Consumer IoT Device Vulnerability Disclosure and Patch Release in Japan and the United States,Asuka Nakajima (NTT Secure Platform Laboratories); Takuya Watanabe (NTT Secure Platform Laboratories); Eitaro Shioji (NTT Secure Platform Laboratories); Mitsuaki Akiyama (NTT Secure Platform Laboratories); Maverick Woo (Carnegie Mellon University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) A Pilot Study on Consumer IoT Device Vulnerability Disclosure and Patch Release in Japan and the United States</div>
+<div class="paper-author">Asuka Nakajima (NTT Secure Platform Laboratories); Takuya Watanabe (NTT Secure Platform Laboratories); Eitaro Shioji (NTT Secure Platform Laboratories); Mitsuaki Akiyama (NTT Secure Platform Laboratories); Maverick Woo (Carnegie Mellon University)</div>
+</li>
 <li>
-	(Short Paper) A Closer Look Tells More: A Facial Distortion Based Liveness Detection for Face Authentication,Yan Li (Advanced Digital Science Center); Zilong Wang (Xidian University); Yingjiu Li (Singapore Management University); Robert Deng (Singapore Management University); Binbin Chen (Advanced Digital Science Center); Weizhi Meng (Technical University of Denmark); Hui Li (Xidian University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) A Closer Look Tells More: A Facial Distortion Based Liveness Detection for Face Authentication</div>
+<div class="paper-author">Yan Li (Advanced Digital Science Center); Zilong Wang (Xidian University); Yingjiu Li (Singapore Management University); Robert Deng (Singapore Management University); Binbin Chen (Advanced Digital Science Center); Weizhi Meng (Technical University of Denmark); Hui Li (Xidian University)</div>
+</li>
 <li>
-	(Short Paper) Flexibly and Securely Shape Your Data Disclosed to Others,Qingqing Xie (Jiangsu University); Yantian Hou (Boise State University); Ke Cheng (Xidian University); Gaby G. Dagher (Boise State University); Liangmin Wang (Jiangsu University); Shucheng Yu (Stevens Institute of Technology)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Flexibly and Securely Shape Your Data Disclosed to Others</div>
+<div class="paper-author">Qingqing Xie (Jiangsu University); Yantian Hou (Boise State University); Ke Cheng (Xidian University); Gaby G. Dagher (Boise State University); Liangmin Wang (Jiangsu University); Shucheng Yu (Stevens Institute of Technology)</div>
+</li>
 <li>
-	(Short Paper) R2Q: A Risk Quantification Framework to Authorize Requests in Web-based Collaborations,Nirnay Ghosh (iTrust Centre for Research in Cyber Security, Singapore University of Technology and Design (SUTD), Singapore 487372.); Rishabh Singhal (JP Morgan & Chase Co., Mumbai, India); Sajal K Das (Department of Computer Science, Missouri University of Science and Technology, Rolla, MO 65409, USA)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) R2Q: A Risk Quantification Framework to Authorize Requests in Web-based Collaborations</div>
+<div class="paper-author">Nirnay Ghosh (iTrust Centre for Research in Cyber Security, Singapore University of Technology and Design (SUTD), Singapore 487372.); Rishabh Singhal (JP Morgan &amp; Chase Co., Mumbai, India); Sajal K Das (Department of Computer Science, Missouri University of Science and Technology, Rolla, MO 65409, USA)</div>
+</li>
 <li>
-	(Short Paper) Design procedure of knowledge base for practical attack graph generation,Masaki Inokuchi (Security Research Laboratories, NEC Corporation); Yoshinobu Ohta (Security Research Laboratories, NEC Corporation); Shunichi Kinoshita (Security Research Laboratories, NEC Corporation); Tomohiko Yagyu (Security Research Laboratories, NEC Corporation); Orly Stan (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Ron Bitton (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Yuval Elovici (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Asaf Shabtai (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Design procedure of knowledge base for practical attack graph generation</div>
+<div class="paper-author">Masaki Inokuchi (Security Research Laboratories, NEC Corporation); Yoshinobu Ohta (Security Research Laboratories, NEC Corporation); Shunichi Kinoshita (Security Research Laboratories, NEC Corporation); Tomohiko Yagyu (Security Research Laboratories, NEC Corporation); Orly Stan (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Ron Bitton (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Yuval Elovici (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev); Asaf Shabtai (Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev)</div>
+</li>
 <li>
-	(Short Paper) AndrEnsemble: Leveraging API Ensembles to Characterize Android Malware Families,Omid Mirzaei (Universidad Carlos III de Madrid); Guillermo Suarez-Tangil (King's College London); Jose M. de Fuentes (Universidad Carlos III de Madrid); Juan Tapiador (Universidad Carlos III de Madrid); Gianluca Stringhini (Boston University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) AndrEnsemble: Leveraging API Ensembles to Characterize Android Malware Families</div>
+<div class="paper-author">Omid Mirzaei (Universidad Carlos III de Madrid); Guillermo Suarez-Tangil (King&#8217;s College London); Jose M. de Fuentes (Universidad Carlos III de Madrid); Juan Tapiador (Universidad Carlos III de Madrid); Gianluca Stringhini (Boston University)</div>
+</li>
 <li>
-	(Short Paper) Mobile Friendly or Attacker Friendly? A Large-scale Security Evaluation of Mobile-first Websites,Tom Van Goethem (imec-DistriNet, KU Leuven); Victor Le Pochat (imec-DistriNet, KU Leuven); Wouter Joosen (imec-DistriNet, KU Leuven)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Mobile Friendly or Attacker Friendly? A Large-scale Security Evaluation of Mobile-first Websites</div>
+<div class="paper-author">Tom Van Goethem (imec-DistriNet, KU Leuven); Victor Le Pochat (imec-DistriNet, KU Leuven); Wouter Joosen (imec-DistriNet, KU Leuven)</div>
+</li>
 <li>
-	(Short Paper) Unveiling Systematic Biases in Decisional Processes. An Application to Discrimination Discovery,Laura Genga (Eindhoven University of Technology); Luca Allodi (Eindhoven University of Technology); Nicola Zannone (Eindhoven University of Technology)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) Unveiling Systematic Biases in Decisional Processes. An Application to Discrimination Discovery</div>
+<div class="paper-author">Laura Genga (Eindhoven University of Technology); Luca Allodi (Eindhoven University of Technology); Nicola Zannone (Eindhoven University of Technology)</div>
+</li>
 <li>
-	(Short Paper) E-Spion: A System-Level Intrusion Detection System for IoT Devices,Anand Mudgerikar (Purdue University); Puneet Sharma (HPE); Elisa Bertino (Purdue University)
-</ul>
-<p>&nbsp;</p>
-<ul>
+<div class="paper-title">(Short Paper) E-Spion: A System-Level Intrusion Detection System for IoT Devices</div>
+<div class="paper-author">Anand Mudgerikar (Purdue University); Puneet Sharma (HPE); Elisa Bertino (Purdue University)</div>
+</li>
 <li>
-	(Short Paper)Examining DES-based Cipher Suite Support within the TLS Ecosystem,Vanessa Frost (University of Florida); Dave Tian (University of Florida); Christie Ruales (University of Florida); Vijay Prakash (University of Florida); Kevin Butler (University of Florida); Patrick Traynor (University of Florida)
+<div class="paper-title">(Short Paper)Examining DES-based Cipher Suite Support within the TLS Ecosystem</div>
+<div class="paper-author">Vanessa Frost (University of Florida); Dave Tian (University of Florida); Christie Ruales (University of Florida); Vijay Prakash (University of Florida); Kevin Butler (University of Florida); Patrick Traynor (University of Florida)</div>
+</li>
 </ul>
-<p>&nbsp;</p>
-
-
-	</div><!-- .entry-content -->
+				</div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->			</div>
+			</div>
+		</div>			</div><!-- .entry-content -->
 
 
 
